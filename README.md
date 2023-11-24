@@ -1,4 +1,4 @@
-# README for Rust AWS Translate CLI Tool
+# Rust AWS Translate CLI Tool
 
 ## Overview
 
