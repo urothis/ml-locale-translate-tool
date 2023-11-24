@@ -1,0 +1,41 @@
+{
+    "common": {
+      "yourProfile": "Your Profile",
+      "dashboard": "Dashboard",
+      "settings": "Settings",
+      "signOut": "Sign Out",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "users": "Users",
+      "accountInfo": "Account Information",
+      "notifications": "Notifications"
+    },
+    "buttons": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "ok": "OK",
+      "back": "Back",
+      "viewNow": "View Now",
+      "continue": "Continue",
+      "support": "Contact Support",
+      "logout": "Log Out",
+      "sign": "Sign",
+      "accept": "Accept",
+      "decline": "Decline",
+      "signed": "Signed",
+      "save": "Save",
+      "edit": "Edit"
+    },
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "E-Mail",
+      "phone": "Phone",
+      "password": "Password"
+    },
+    "errors": {
+      "invalidLogic": "The username or password provided was incorrect.",
+      "unspecific": "Something went wrong.",
+      "404": "The page was not found."
+    }
+  }
