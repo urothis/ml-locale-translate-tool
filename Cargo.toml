@@ -7,8 +7,8 @@ edition = "2021"
 anyhow = "1.0.75"
 async-recursion = "1.0.5"
 aws-config = { version = "1.0.1", features = ["behavior-version-latest"] }
-aws-sdk-translate = "0.39.0"
-clap = { version = "4.4.8", features = ["derive"] }
+aws-sdk-translate = "1.2.0"
+clap = { version = "4.4.9", features = ["derive"] }
 env_logger = "0.10.1"
 serde = { version = "1.0.130", features = ["derive"] }
 log = "0.4.20"
