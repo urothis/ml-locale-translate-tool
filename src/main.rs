@@ -182,6 +182,7 @@ async fn translate_json_object(
             Ok(Value::Object(new_obj))
         }
         Value::String(s) => {
+            if s == "" { return Ok(Value::String("".to_string())); }
             let translated_text = translate_client
                 .translate_text()
                 .source_language_code(source_language_code)
