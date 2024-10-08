@@ -1,1 +1,3 @@
 /target
+/assets/translated/*.json
+/assets/original/*.json
