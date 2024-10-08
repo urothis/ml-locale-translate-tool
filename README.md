@@ -23,3 +23,8 @@ This Rust-based command-line tool is designed to translate JSON locale files usi
    - `aws_region`: Set the AWS region (default: "us-east-1").
    - `source_language_code`: Source language for translation (default: "en").
    - `input_file`: Path to the JSON file to be translated (default: "en.json").
+
+## How to use
+1. **Log in to aws**: Log into AWS SSO using the CLI command
+1. **Place your en.json into assets/original**: Place your en.json file into the assets/original directory
+2. **Run cargo watch while specifying the profile**: cargo run -- --aws-profile your-profile
